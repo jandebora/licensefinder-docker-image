@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  license_finder_jdk8:
+    image: jandebora/license_finder:jdk8
+    build: images/jdk8
+  license_finder_jdk11:
+    image: jandebora/license_finder:jdk11
+    build: images/jdk11
+  license_finder_jdk17:
+    image: jandebora/license_finder:jdk17
+    build: images/jdk17
+  license_finder_npm_yarn:
+    image: jandebora/license_finder:npm-yarn
+    build: images/npm-yarn
