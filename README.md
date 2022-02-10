@@ -34,7 +34,7 @@ There are four images:
 
 ### Simple scanning
 
-To use without ```permitted_licenses``` you must to move to your project path and run:
+To use without ```permitted_licenses``` you must move to your project path and run:
 ```
 docker run --rm --volume $(pwd):/scan -it jandebora/license_finder:jdk11
 ```
